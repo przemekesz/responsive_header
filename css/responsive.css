@@ -1,0 +1,38 @@
+@media (min-width: 1170px){
+    #header{
+        width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1169px){
+    #header{
+        height: 70vh;
+        text-align: right;
+        background-image: url(../img/man-2.jpg);
+    }
+    #content{
+        top: 0;
+        left: auto;
+        right: 0;
+        transform: none;
+        padding-right: 3%;
+        text-align: right;
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 991px){
+    #header{
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+    }
+    #content{
+        transform: none;
+        position: absolute;
+        color: #000000;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        font-size: 0.9em;
+    }
+}    
